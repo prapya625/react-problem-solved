@@ -1,0 +1,38 @@
+.book-container{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 8px ;
+    position: relative;
+}
+
+.book-container img{
+    width: 280px;
+    height:280px;
+    border: 2px solid #f59573;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.book-info{
+    margin-top: -10px;
+    margin-left: 12px;
+}
+.btn-cart{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    background-color: #FFE0B3;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart p{
+    margin-right: 10px;
+}
+
+.btn-cart:hover{
+    background-color:orange ;
+}

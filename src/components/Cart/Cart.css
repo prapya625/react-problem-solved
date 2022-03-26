@@ -1,0 +1,29 @@
+.cart-container{
+    position: sticky;
+    top: 0;
+    border-radius:10px;
+
+}
+
+.cart-container  p {
+    margin-left: 25px;
+}
+.btn{
+    text-align: center;
+}
+.btn-choose{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    
+}
+.btn-clear{
+    background-color:red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;  
+}

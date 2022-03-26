@@ -1,0 +1,18 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.books-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.cart-container{
+    margin-top: 78px;
+    background-color: #E6E6FA;
+    
+}
